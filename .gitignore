@@ -1,0 +1,5 @@
+# 1. 忽略整个 build 文件夹下的所有内容
+build/*
+
+# 2. 但不要忽略 build 文件夹下的 main.pdf
+!build/main.pdf
